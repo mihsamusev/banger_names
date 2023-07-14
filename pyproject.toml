@@ -16,7 +16,8 @@ dependencies = [
 dev = [
   "flake8",
   "pytest",
-  "coverage"
+  "coverage",
+  "tox"
 ]
 
 [build-system]

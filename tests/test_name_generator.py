@@ -1,4 +1,4 @@
-from banger_names.name_generator import combine_name_parts, format_name
+from banger_names.name_generator import combine_name_parts, format_name, generate_names
 
 
 def test_format_name():
@@ -10,3 +10,7 @@ def test_format_name():
 def test_combine_name_parts():
     assert combine_name_parts(["part1"]) == "part1"
     assert combine_name_parts(["part1", "part2"]) == "part1_part2"
+
+
+def test_can_generate_n_names():
+    assert len(generate_names(3)) == 3

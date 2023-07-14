@@ -1,5 +1,5 @@
 from banger_names.names import CHEMISTS, DEVICES, ADJECTIVES
-import random
+import numpy as np
 
 
 
@@ -12,9 +12,9 @@ def combine_name_parts(names: list[str]) -> str:
 
 
 def generate_names(count: int) -> list[str]:
-    chemist = random.choices(CHEMISTS, k=count)
-    adjective = random.choices(ADJECTIVES, k=count)
-    device = random.choices(DEVICES, k=count)
+    chemist = np.random.choice(CHEMISTS, size=count)
+    adjective = np.random.choice(ADJECTIVES, size=count)
+    device = np.random.choice(DEVICES, size=count)
 
     parts = zip(chemist, adjective, device)
     return [combine_name_parts(map(format_name, part)) for part in parts]

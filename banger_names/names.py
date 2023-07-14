@@ -19,7 +19,7 @@ CHEMISTS = [
     "Carl Bosch",
     "Jöns Jacob Berzelius",
     "Glenn T. Seaborg",
-    "Martin Fruensgard"
+    "Martin Fruensgard",
 ]
 
 DEVICES = [
@@ -43,7 +43,7 @@ DEVICES = [
     "Converter",
     "Compressor",
     "Relay",
-    "Computer"
+    "Computer",
 ]
 
 ADJECTIVES = [
@@ -67,5 +67,5 @@ ADJECTIVES = [
     "Umami",
     "Gourmet",
     "Wet",
-    "Nasty"
+    "Nasty",
 ]

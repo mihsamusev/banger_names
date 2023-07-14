@@ -1,0 +1,21 @@
+[project]
+name = "banger_names"
+version = "0.1.0"
+description = "best names on github"
+authors = [
+  {name = "Mihhail Samusev", email = "mhs@bluepp.dk" }
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["examples", "tests"]

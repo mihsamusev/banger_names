@@ -13,7 +13,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = []
+dev = [
+  "flake8",
+  "pytest"
+]
 
 [build-system]
 requires = ["setuptools", "wheel"]

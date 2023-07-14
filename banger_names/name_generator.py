@@ -1,6 +1,7 @@
 from banger_names.names import CHEMISTS, DEVICES, ADJECTIVES
 import numpy as np
 
+
 def format_name(name: str) -> str:
     return name.split(" ")[-1].lower()
 

@@ -1,0 +1,17 @@
+[run]
+branch = False
+include =
+        banger_names/*
+omit =
+        */tests/*
+
+
+[report]
+fail_under = 100
+skip_covered = True
+skip_empty = True
+exclude_lines = 
+        pragma: no cover
+        if __name__ == .__main__.:
+        def __repr__
+        def __str__

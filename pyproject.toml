@@ -15,7 +15,9 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
   "flake8",
-  "pytest"
+  "pytest",
+  "coverage",
+  "tox"
 ]
 
 [build-system]

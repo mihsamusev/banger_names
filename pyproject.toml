@@ -8,7 +8,9 @@ authors = [
 requires-python = ">=3.9"
 readme = "README.md"
 
-dependencies = []
+dependencies = [
+  "numpy"
+]
 
 [project.optional-dependencies]
 dev = []

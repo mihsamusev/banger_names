@@ -1,5 +1,6 @@
-from names import CHEMISTS, DEVICES, ADJECTIVES
+from banger_names.names import CHEMISTS, DEVICES, ADJECTIVES
 import random
+
 
 
 def format_name(name: str) -> str:

@@ -31,4 +31,5 @@ jobs:
     - name: Lint, test, coverage
       run: |
         python -m flake8 .
-        python -m pytest
+        python -m coverage run -m pytest
+        python -m coverage report
